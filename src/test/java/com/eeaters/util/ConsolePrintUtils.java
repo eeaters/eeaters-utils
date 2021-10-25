@@ -1,4 +1,4 @@
-package com.caicai.util;
+package com.eeaters.util;
 
 /**
  * @author: eeaters

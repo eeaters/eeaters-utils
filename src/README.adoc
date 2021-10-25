@@ -1,0 +1,11 @@
+:toc:
+
+工具包
+
+## 1.枚举工具类
+. 功能: 继承了CodeEnum的类,可以直接通过CodeEnumUtils来将code转成具体的枚举值,减少冗余代码
+. 示例: CodeEnumUtilsTest
+
+## 2.异常不处理
+. 功能: 很多无需处理却又不得不捕获的类,可以通过ThrowableSupplier类来省略try-catch
+. 示例: ThrowableSupplierTest

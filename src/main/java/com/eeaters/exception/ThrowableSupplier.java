@@ -1,4 +1,4 @@
-package com.caicai.exception;
+package com.eeaters.exception;
 
 /**
  * @author: eeaters

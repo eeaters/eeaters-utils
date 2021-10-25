@@ -1,4 +1,4 @@
-package com.caicai.enums;
+package com.eeaters.enums;
 
 import org.junit.Assert;
 import org.junit.Test;

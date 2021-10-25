@@ -1,4 +1,4 @@
-package com.caicai.enums;
+package com.eeaters.enums;
 
 /**
  * @Description:
