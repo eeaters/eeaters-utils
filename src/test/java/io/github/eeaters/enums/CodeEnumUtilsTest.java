@@ -5,7 +5,7 @@ import org.junit.Test;
 
 /**
  * @Description:
- * @author: yujie.wan
+ * @author: eeaters
  * @since: 1.0
  */
 public class CodeEnumUtilsTest {

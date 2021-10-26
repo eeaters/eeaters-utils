@@ -2,7 +2,7 @@ package io.github.eeaters.enums;
 
 /**
  * @Description:
- * @author: yujie.wan
+ * @author: eeaters
  * @since: 1.0
  */
 public enum StatusEnum implements CodeEnum {

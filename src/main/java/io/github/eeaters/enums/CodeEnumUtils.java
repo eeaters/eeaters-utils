@@ -1,8 +1,8 @@
 package io.github.eeaters.enums;
 
 /**
- * @Description:
- * @author: yujie.wan
+ * enum utility
+ * @author: eeaters
  * @since: 1.0
  */
 public interface CodeEnumUtils {
