@@ -1,4 +1,4 @@
-package com.eeaters.util;
+package io.github.eeaters.util;
 
 /**
  * @author: eeaters

@@ -1,4 +1,4 @@
-package com.eeaters.exception;
+package io.github.eeaters.exception;
 
 import org.junit.Test;
 

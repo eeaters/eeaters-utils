@@ -1,4 +1,4 @@
-package com.eeaters.enums;
+package io.github.eeaters.enums;
 
 import org.junit.Assert;
 import org.junit.Test;
