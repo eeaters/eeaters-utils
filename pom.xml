@@ -21,4 +21,27 @@
     </dependency>
   </dependencies>
 
+
+    <!-- 开源协议: apache 2.0代表完全开源 -->
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+
+    <!-- 自动部署: -->
+    <scm>
+        <tag>master</tag>
+        <connection>git@gitee.com:eeaters/eeaters-utils.git</connection>
+    </scm>
+
+    <!-- 配置贡献者 -->
+    <developers>
+        <developer>
+            <name>eeaters</name>
+        </developer>
+    </developers>
 </project>
