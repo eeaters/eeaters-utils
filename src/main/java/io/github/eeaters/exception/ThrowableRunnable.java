@@ -4,13 +4,13 @@ package io.github.eeaters.exception;
  * @author: eeaters
  */
 @FunctionalInterface
-public interface ThrowableSupplier<T> {
+public interface ThrowableRunnable {
 
-    T get() throws Throwable;
+    void run() throws Throwable;
 
-    static <T> T execute(ThrowableSupplier<T> supplier) {
+    static void execute(ThrowableRunnable runnable) {
         try {
-            return supplier.get();
+            runnable.run();
         } catch (Throwable throwable) {
             throw new EeatersException(throwable);
         }

@@ -17,7 +17,7 @@ public class ThrowableSupplierTest {
 
     @Test(expected = EeatersException.class)
     public void testExecuteNoResult() {
-        ThrowableSupplier.executeNoResult(() -> execute("hello", true));
+        ThrowableRunnable.execute(() -> execute("hello", true));
     }
 
 
