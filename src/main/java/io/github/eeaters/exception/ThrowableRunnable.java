@@ -8,7 +8,7 @@ public interface ThrowableRunnable {
 
     void run() throws Throwable;
 
-    static void execute(ThrowableRunnable runnable) {
+    static void run(ThrowableRunnable runnable) {
         try {
             runnable.run();
         } catch (Throwable throwable) {

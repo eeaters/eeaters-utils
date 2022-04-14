@@ -12,12 +12,12 @@ public class ThrowableSupplierTest {
 
     @Test(expected = EeatersException.class)
     public void testExecute() {
-        ThrowableSupplier.execute(() -> execute("hello", true));
+        ThrowableSupplier.get(() -> execute("hello", true));
     }
 
     @Test(expected = EeatersException.class)
     public void testExecuteNoResult() {
-        ThrowableRunnable.execute(() -> execute("hello", true));
+        ThrowableRunnable.run(() -> execute("hello", true));
     }
 
 

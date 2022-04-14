@@ -8,7 +8,7 @@ public interface ThrowableSupplier<T> {
 
     T get() throws Throwable;
 
-    static <T> T execute(ThrowableSupplier<T> supplier) {
+    static <T> T get(ThrowableSupplier<T> supplier) {
         try {
             return supplier.get();
         } catch (Throwable throwable) {

@@ -5,7 +5,9 @@ package io.github.eeaters.exception;
  */
 public class EeatersException extends RuntimeException{
 
-    protected String code;
+    private static final String DEFAULT_CODE = "999";
+
+    protected String code = DEFAULT_CODE;
 
     public EeatersException(String message, String code) {
         super(message);
